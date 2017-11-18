@@ -15,7 +15,6 @@ class CollectionViewCell: UICollectionViewCell {
     
     var imageURL: URL? {
         didSet{
-//            self.imageView.frame = self.frame
             self.imageView.kf.setImage(with: imageURL)
         }
     }
