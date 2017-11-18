@@ -68,5 +68,4 @@ fastlane/screenshots
 fastlane/test_output
 
 MVVMSample.xcworkspace/
-Podfile
 Podfile.lock
